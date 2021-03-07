@@ -46,13 +46,14 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 
   * Plot the results as a histogram with `bins=12`.
 
-    ![station-histogram](Images/temperature_over_12_months.png)
+    ![station-histogram](Images/station_temperature_over_12_months.png)
 
 - - -
 
 ## Step 2 - Climate App
 
 Now that you have completed your initial analysis, design a Flask API based on the queries that you have just developed.
+I am using [this bootstrap template](https://getbootstrap.com/docs/5.0/examples/starter-template)
 
 * Use Flask to create your routes.
 

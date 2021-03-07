@@ -1,0 +1,9 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<h1>Hawaii Weather Data</h1>
+<p class="lead">Welcome to the home page, bellow you will find the endpoints available in this api!</p>
+{% for name, data in endpoints.items() %}
+<li class="list-group-item"><a href="{{data['link']}}">{{name}}</a> - {{data['info']}}</li>
+{% endfor %}
+{% endblock %}
