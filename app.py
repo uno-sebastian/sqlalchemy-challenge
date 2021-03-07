@@ -89,11 +89,11 @@ def api_endpoints(base_url):
 		},
 		"temperature info start": {
 			"info": "Return a JSON list of the minimum temperature, the average temperature, and the max temperature for a given start range",
-			"link": base_url + api_path("2016-05-01")
+			"link": base_url + api_path("2016-08-23")
 		},
 		"temperature info start and end": {
 			"info": "Return a JSON list of the minimum temperature, the average temperature, and the max temperature for a given start and end range",
-			"link": base_url + api_path("2016-05-01/2016-06-01")
+			"link": base_url + api_path("2016-08-23/2017-08-23")
 		}
 	}
 
@@ -325,7 +325,7 @@ def temperature_data_start_end(start, end):
 		When given the start and the end date, calculate the `TMIN`, `TAVG`, and `TMAX` for dates between the start and end date inclusive.
 	"""
 	# try to parse in the sent in end time
-	end_date = try_parse_datetime(start)
+	end_date = try_parse_datetime(end)
 	# if the returned end date is not datetime,
 	# then it failed and has sent back an error string
 	if type(end_date) is str:
