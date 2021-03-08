@@ -57,6 +57,8 @@ I am using [this bootstrap template](https://getbootstrap.com/docs/5.0/examples/
 
 * Use Flask to create your routes.
 
+![flask](Images/flask_screencap.PNG)
+
 ### Routes
 
 * `/`
@@ -106,6 +108,10 @@ I am using [this bootstrap template](https://getbootstrap.com/docs/5.0/examples/
 
 * Identify the average temperature in June at all stations across all available years in the dataset. Do the same for December temperature.
 
+![jan-temp](Images/bonus_1_hawaii_jan_temps.png)
+
+![dec-temp](Images/bonus_1_hawaii_dec_temps.png)
+
 * Use the t-test to determine whether the difference in the means, if any, is statistically significant. Will you use a paired t-test, or an unpaired t-test? Why?
 
 ### Temperature Analysis II
@@ -122,9 +128,7 @@ I am using [this bootstrap template](https://getbootstrap.com/docs/5.0/examples/
 
   * Use the peak-to-peak (TMAX-TMIN) value as the y error bar (YERR).
 
-<!---
-    ![temperature](Images/temperature.png)
---->
+    ![temperature](Images/bonus_2_trip_avg_temp_2015.png)
 
 ### Daily Rainfall Average
 
@@ -148,6 +152,4 @@ I am using [this bootstrap template](https://getbootstrap.com/docs/5.0/examples/
 
 * Use Pandas to plot an area plot (`stacked=False`) for the daily normals.
 
-<!---
-  ![daily-normals](Images/daily-normals.png)
---->
+  ![daily-normals](Images/daily_normal_temperature_range_for_trip.png)
